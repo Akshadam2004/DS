@@ -1,0 +1,10 @@
+set MPJ_HOME=C:\Users\morea\Downloads\mpj-v0_44 (1)
+
+set PATH=%MPJ_HOME%\bin;%PATH%
+
+javac -cp "C:\Users\morea\Downloads\mpj-v0_44 (1)\mpj-v0_44\lib\mpj.jar" SumArrayMPI.java
+
+mpjrun -np 3 SumArrayMPI
+
+
+"C:\Users\morea\Downloads\mpj-v0_44 (1)\mpj-v0_44\bin\mpjrun.bat" -np 3 SumArrayMPI
